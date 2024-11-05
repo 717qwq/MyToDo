@@ -3,3 +3,8 @@ C:\Users\717qwq\source\repos\MyToDo\MyToDo\obj\Debug\net8.0-windows\MainWindow.g
 C:\Users\717qwq\source\repos\MyToDo\MyToDo\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\717qwq\source\repos\MyToDo\MyToDo\obj\Debug\net8.0-windows\MyToDo_MarkupCompile.cache
 C:\Users\717qwq\source\repos\MyToDo\MyToDo\obj\Debug\net8.0-windows\MyToDo_MarkupCompile.lref
+D:\Repo\MyToDo\MyToDo\obj\Debug\net8.0-windows\MyToDo.csproj.AssemblyReference.cache
+D:\Repo\MyToDo\MyToDo\obj\Debug\net8.0-windows\App.g.cs
+D:\Repo\MyToDo\MyToDo\obj\Debug\net8.0-windows\MyToDo_MarkupCompile.cache
+D:\Repo\MyToDo\MyToDo\obj\Debug\net8.0-windows\MyToDo_MarkupCompile.lref
+D:\Repo\MyToDo\MyToDo\obj\Debug\net8.0-windows\MainWindow.g.cs
