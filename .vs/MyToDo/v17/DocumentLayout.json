@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|c:\\users\\717qwq\\source\\repos\\mytodo\\mytodo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|c:\\users\\717qwq\\source\\repos\\mytodo\\mytodo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|c:\\users\\717qwq\\source\\repos\\mytodo\\mytodo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|c:\\users\\717qwq\\source\\repos\\mytodo\\mytodo\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|c:\\users\\717qwq\\source\\repos\\mytodo\\mytodo\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA153142-D0C1-48DE-903D-F402DD0E5885}|MyToDo\\MyToDo.csproj|c:\\users\\717qwq\\source\\repos\\mytodo\\mytodo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "MyToDo\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\AssemblyInfo.cs",
+              "RelativeToolTip": "MyToDo\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T07:26:53.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MyToDo\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\App.xaml.cs",
+              "RelativeToolTip": "MyToDo\\App.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T06:46:59.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\App.xaml",
               "RelativeDocumentMoniker": "MyToDo\\App.xaml",
@@ -54,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MyToDo\\MainWindow.xaml",
@@ -66,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MyToDo\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\MainWindow.xaml.cs",
               "RelativeToolTip": "MyToDo\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T06:33:01.521Z",
               "EditorCaption": ""

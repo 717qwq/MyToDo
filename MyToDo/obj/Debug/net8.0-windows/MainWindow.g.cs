@@ -10,6 +10,13 @@
 //------------------------------------------------------------------------------
 
 using MyToDo;
+using Prism.Dialogs;
+using Prism.DryIoc;
+using Prism.Interactivity;
+using Prism.Ioc;
+using Prism.Mvvm;
+using Prism.Navigation.Regions;
+using Prism.Navigation.Regions.Behaviors;
 using System;
 using System.Diagnostics;
 using System.Windows;
