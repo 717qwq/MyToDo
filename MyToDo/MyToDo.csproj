@@ -23,4 +23,11 @@
     <Compile Remove="DocumentationLinks.xaml.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="doro.jpg" />
+    <Resource Include="doro.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>

@@ -19,6 +19,35 @@ namespace MyToDo
         public MainWindow()
         {
             InitializeComponent();
+            btnWindowMinimize.Click += (s, e) => { this.WindowState = WindowState.Minimized; };
+            btnWindowMaxmize.Click += (s, e) =>
+            {
+                if (WindowState == WindowState.Maximized)
+                    this.WindowState = WindowState.Normal;
+                else
+                    this.WindowState = WindowState.Maximized;
+            };
+            btnCloseWindow.Click += (s, e) => { this.Close();  };
+
+            ColorZone.MouseMove += (s, e) =>
+            {
+                if (e.LeftButton == MouseButtonState.Pressed)
+                {
+                    this.DragMove();
+                }
+            };
+
+            ColorZone.MouseDoubleClick += (s, e) =>
+            {
+                if (WindowState == WindowState.Maximized)
+                {
+                    this.WindowState = WindowState.Normal;
+                }
+                else if (WindowState != WindowState.Maximized)
+                {
+                    this.WindowState = WindowState.Maximized;
+                }
+            };
         }
     }
 }

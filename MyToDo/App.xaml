@@ -5,7 +5,7 @@
     xmlns:local="clr-namespace:MyToDo"
     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:prism="http://prismlibrary.com/"
-    StartupUri="MainWindow.xaml">
+    >
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

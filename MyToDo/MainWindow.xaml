@@ -6,11 +6,12 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:MyToDo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="768" Width="1280"
         WindowStyle="None" WindowStartupLocation="CenterScreen"
         Style="{StaticResource MaterialDesignWindow}"
         Background="{DynamicResource MaterialDesignDarkSeparatorBackground}"
         FontFamily="{DynamicResource MaterialDesignFont}"
+        AllowsTransparency="True"
         TextElement.FontSize="13"
         TextElement.FontWeight="Regular"
         TextElement.Foreground="{DynamicResource MaterialDesignDarkSeparatorBackground}"
@@ -30,18 +31,29 @@
             </materialDesign:DrawerHost.LeftDrawerContent>
             
             <DockPanel>
-                <materialDesign:ColorZone
+                <materialDesign:ColorZone x:Name="ColorZone"
                     Padding="16"
                     materialDesign:ElevationAssist.Elevation="Dp4"
                     Mode="PrimaryMid"
                     DockPanel.Dock="Top">
-                    <DockPanel>
+                    <DockPanel LastChildFill="True">
+                        
+                        <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                            <Image Width="50" Height="50" Source="doro.jpg">
+                                <Image.Clip>
+                                    <EllipseGeometry RadiusX="25" RadiusY="25" Center="25,25"/>
+                                </Image.Clip>
+                            </Image>
+                            <Button Name="btnWindowMinimize" Content="―" Style="{StaticResource MaterialDesignFlatMidBgButton}"/>    
+                            <Button Name="btnWindowMaxmize" Content="▢" Style="{StaticResource MaterialDesignFlatMidBgButton}"/>    
+                            <Button Name="btnCloseWindow" Content="✖" Style="{StaticResource MaterialDesignFlatMidBgButton}"/>   
+                        </StackPanel>
+                        
                         <StackPanel Orientation="Horizontal">
                             <ToggleButton
                                 x:Name="MenuToggleButton"
                                 Style="{StaticResource MaterialDesignHamburgerToggleButton}"
                                 IsChecked="False"
-                                Click="MenuToggleButton_OnClick"
                                 AutomationProperties.Name="HamburgerToggleButton"/>
 
                             <Button
@@ -61,23 +73,23 @@
                                 Style="{DynamicResource MaterialDesignToolButton}"
                                 Foreground="{Binding RelativeSource={RelativeSource AncestorType={x:Type FrameworkElement}}, Path=(TextElement.Foreground)}"
                                 materialDesign:RippleAssist.Feedback="{Binding RelativeSource={RelativeSource Self}, Path=Foreground, Converter={StaticResource BrushRoundConverter}}"/>
-
-                            <Button
-                                Margin="16,0,0,0"
-                                ToolTip="Home"
-                                Command="{Binding HomeCommand}"
-                                Content="{materialDesign:PackIcon Kind=Home, Size=24}"
-                                Style="{DynamicResource MaterialDesignToolButton}"
-                                Foreground="{Binding RelativeSource={RelativeSource AncestorType={x:Type FrameworkElement}}, Path=(TextElement.Foreground)}"
-                                materialDesign:RippleAssist.Feedback="{Binding RelativeSource={RelativeSource Self}, Path=Foreground, Converter={StaticResource BrushRoundConverter}}"/>
+                            
+                            <TextBlock
+                                Margin="16 0 16 0"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                FontSize="22"
+                                AutomationProperties.Name="Material Design In XAML Toolkit"
+                                Text="笔记本"/>
+                            
+                            <TextBlock
+                                Margin="16 0 16 0"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                FontSize="22"
+                                AutomationProperties.Name="Material Design In XAML Toolkit"
+                                Text="My番茄ToDo——717qwq"/>
                         </StackPanel>
-
-                        <TextBlock
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="22"
-                            AutomationProperties.Name="Material Design In XAML Toolkit"
-                            Text="番茄ToDo"/>
                     </DockPanel>
                 </materialDesign:ColorZone>
                 
@@ -87,8 +99,6 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     
-                    <domain:DocumentationLinks DataContext="{Binding SelectedItem}"/>
-                    
                     <ScrollViewer
                         x:Name="MainScrollViewer"
                         Grid.Row="1"
@@ -96,7 +106,6 @@
                         HorizontalScrollBarVisibility="{Binding SelectedItem.HorizontalScrollBarVisibilityRequirement, FallbackValue=Disabled}"
                         VerticalScrollBarVisibility="{Binding SelectedItem.VerticalScrollBarVisibilityRequirement, FallbackValue=Disabled}" >
                         <ContentControl
-                            DataContextChanged="OnSelectedItemChanged"
                             DataContext="{Binding SelectedItem}"
                             Margin="{Binding MarginRequirement, FallbackValue=16}"
                             Content="{Binding Content, UpdateSourceTrigger=PropertyChanged, FallbackValue={x:Null}}"/>
