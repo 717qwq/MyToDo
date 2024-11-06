@@ -30,3 +30,4 @@ C:\Users\717qwq\source\repos\MyToDo\MyToDo.Api\obj\Debug\net8.0\refint\MyToDo.Ap
 C:\Users\717qwq\source\repos\MyToDo\MyToDo.Api\obj\Debug\net8.0\MyToDo.Api.pdb
 C:\Users\717qwq\source\repos\MyToDo\MyToDo.Api\obj\Debug\net8.0\MyToDo.Api.genruntimeconfig.cache
 C:\Users\717qwq\source\repos\MyToDo\MyToDo.Api\obj\Debug\net8.0\ref\MyToDo.Api.dll
+C:\Users\717qwq\source\repos\MyToDo\MyToDo.Api\obj\Debug\net8.0\MyToDo.Api.sourcelink.json

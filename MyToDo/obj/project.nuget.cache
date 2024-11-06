@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "px0iGX3MkC0=",
+  "dgSpecHash": "V3AOzBbRmDg=",
   "success": true,
-  "projectFilePath": "D:\\Repo\\MyToDo\\MyToDo\\MyToDo.csproj",
+  "projectFilePath": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\MyToDo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\717qwq\\.nuget\\packages\\dryioc.dll\\5.4.3\\dryioc.dll.5.4.3.nupkg.sha512",
     "C:\\Users\\717qwq\\.nuget\\packages\\materialdesigncolors\\3.1.0\\materialdesigncolors.3.1.0.nupkg.sha512",
@@ -38,7 +38,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "MaterialDesignThemes.Wpf 1.0.1 depends on MaterialDesignColors (>= 1.0.1) but MaterialDesignColors 1.0.1 was not found. An approximate best match of MaterialDesignColors 1.1.0 was resolved.",
+      "message": "MaterialDesignThemes.Wpf 1.0.1 依赖于 MaterialDesignColors (>= 1.0.1)，但找不到 MaterialDesignColors 1.0.1。 已解决 MaterialDesignColors 1.1.0 的近似最佳匹配。 ",
       "libraryId": "MaterialDesignColors",
       "targetGraphs": [
         "net8.0-windows7.0"

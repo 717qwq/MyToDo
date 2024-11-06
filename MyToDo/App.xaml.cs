@@ -1,4 +1,6 @@
-﻿using System.Configuration;
+﻿using MyToDo.ViewModels;
+using MyToDo.Views;
+using System.Configuration;
 using System.Data;
 using System.Windows;
 
@@ -11,13 +13,13 @@ namespace MyToDo
     {
         protected override Window CreateShell()
         {
-            return Container.Resolve<MainWindow>(); //指定项目开始的窗体
+            return Container.Resolve<MainView>(); //指定项目开始的窗体
             //这里的 MainWindow 指的是 MainWindow.xaml 对应的后台代码 MainWindow.xaml.cs 中的 MainWindow 类，也可以指这个窗体
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            containerRegistry.RegisterForNavigation<MainView, MainViewViewModel>();
         }
     }
 

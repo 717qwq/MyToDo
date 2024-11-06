@@ -1223,28 +1223,41 @@
       "MaterialDesignThemes >= 5.1.0",
       "MaterialDesignThemes.Wpf >= 1.0.1",
       "Nyan.MaterialDesign.Color >= 1.2.0",
-      "Prism.DryIoc >= 9.0.537"
+      "Prism.DryIoc >= 9.0.537",
+      "Prism.Wpf >= 9.0.537"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\717qwq\\.nuget\\packages\\": {}
+    "C:\\Users\\717qwq\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\MyToDo\\MyToDo\\MyToDo.csproj",
+      "projectUniqueName": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\MyToDo.csproj",
       "projectName": "MyToDo",
-      "projectPath": "D:\\Repo\\MyToDo\\MyToDo\\MyToDo.csproj",
+      "projectPath": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\MyToDo.csproj",
       "packagesPath": "C:\\Users\\717qwq\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\MyToDo\\MyToDo\\obj\\",
+      "outputPath": "C:\\Users\\717qwq\\source\\repos\\MyToDo\\MyToDo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\717qwq\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\717qwq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1283,6 +1296,10 @@
           "Prism.DryIoc": {
             "target": "Package",
             "version": "[9.0.537, )"
+          },
+          "Prism.Wpf": {
+            "target": "Package",
+            "version": "[9.0.537, )"
           }
         },
         "imports": [
@@ -1304,7 +1321,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\717qwq\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -1313,7 +1330,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "MaterialDesignThemes.Wpf 1.0.1 depends on MaterialDesignColors (>= 1.0.1) but MaterialDesignColors 1.0.1 was not found. An approximate best match of MaterialDesignColors 1.1.0 was resolved.",
+      "message": "MaterialDesignThemes.Wpf 1.0.1 依赖于 MaterialDesignColors (>= 1.0.1)，但找不到 MaterialDesignColors 1.0.1。 已解决 MaterialDesignColors 1.1.0 的近似最佳匹配。 ",
       "libraryId": "MaterialDesignColors",
       "targetGraphs": [
         "net8.0-windows7.0"

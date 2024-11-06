@@ -11,7 +11,8 @@
           "MaterialDesignThemes": "5.1.0",
           "MaterialDesignThemes.Wpf": "1.0.1",
           "Nyan.MaterialDesign.Color": "1.2.0",
-          "Prism.DryIoc": "9.0.537"
+          "Prism.DryIoc": "9.0.537",
+          "Prism.Wpf": "9.0.537"
         },
         "runtime": {
           "MyToDo.dll": {}
